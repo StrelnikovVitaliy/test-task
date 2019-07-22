@@ -1,0 +1,21 @@
+.Menu{
+  background-color: black;
+  padding: 10px 0;
+}
+.Menu ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.Menu ul > li {
+  list-style: none;
+}
+.Menu ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+.Menu ul > li:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}

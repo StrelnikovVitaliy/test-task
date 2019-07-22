@@ -1,0 +1,30 @@
+.Carousel {
+  position: relative;
+  width: 100%;
+}
+.Content {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  margin: 30px;
+  text-align: left;
+  color: white;
+}
+.Slide {
+  position: relative;
+}
+.Slide button {
+  position: absolute;
+  bottom: 140px;
+  left: 40px;
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  height: 40px;
+  width: 140px;
+}
+.Slide button:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
